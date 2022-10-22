@@ -34,6 +34,12 @@ const Calculator = () => {
     console.log(display)
     if(display.currentOperand == null && display.previousOperand == null) {
       return display
+    } else if(display.currentOperand == null) {
+      // console.log(display)
+      setDisplay(prev => ({
+        ...prev,
+        operator: operator
+      }))
     } else if(display.previousOperand == null) {
       console.log('display')
       setDisplay(prev => ({

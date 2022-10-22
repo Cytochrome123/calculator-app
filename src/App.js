@@ -1,12 +1,12 @@
-
-// import './App.css';
-import Calculator from './component/Calculator';
+// import Calculator from './component/Calculator';
+import Calculator_rdx from './component/Calculator_rdx';
 
 function App() {
 
   return (
     <div>
-      <Calculator />
+      {/* <Calculator /> */}
+      <Calculator_rdx />
     </div>
   );
 }
