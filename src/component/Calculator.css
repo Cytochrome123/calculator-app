@@ -49,6 +49,7 @@
     word-wrap: break-word;
     word-break: break-all;
     margin: 5px 11px;
+    overflow: auto;
   }
   
   .output .previous-operand {

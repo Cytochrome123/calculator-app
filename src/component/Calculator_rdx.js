@@ -157,22 +157,3 @@ const Calculator_rdx = () => {
 }
 
 export default Calculator_rdx;
-
-{/* <button className='span-two' onClick={() => dispatch( {type: ACTIONS.CLEAR})}>AC</button>
-            <button onClick={() => dispatch( {type: ACTIONS.DELETE})}>DEL</button>
-            <button onClick={() => dispatch({ type: ACTIONS.SET_OPERATOR, payload: {operator: '+'}})}>+</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '7'}})}>7</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '8'}})}>8</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '9'}})}>9</button>
-            <button onClick={() => dispatch({ type: ACTIONS.SET_OPERATOR, payload: {operator: '*'}})}>*</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '4'}})}>4</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '5'}})}>5</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '6'}})}>6</button>
-            <button onClick={() => dispatch({ type: ACTIONS.SET_OPERATOR, payload: {operator: '/'}})}>/</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '3'}})}>3</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '2'}})}>2</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '1'}})}>1</button>
-            <button onClick={() => dispatch({ type: ACTIONS.SET_OPERATOR, payload: {operator: '-'}})}>-</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '.'}})}>.</button>
-            <button onClick={() => dispatch({type: ACTIONS.INPUT_DIGIT, payload: {value: '0'}})}>0</button>
-            <button className='span-two' onClick={() => dispatch({type: ACTIONS.EVALUATE, payload: { operator: '='}})}>=</button> */}
