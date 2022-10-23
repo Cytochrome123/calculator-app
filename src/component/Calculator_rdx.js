@@ -1,4 +1,6 @@
-import { useReducer } from "react"
+import { useReducer } from "react";
+
+import './Calculator.css';
 
 const Calculator_rdx = () => {
 
